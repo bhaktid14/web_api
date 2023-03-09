@@ -1,0 +1,42 @@
+﻿@model crud_application_web_api.Models.Employee
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.T_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T_priority)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T_priority)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.T_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

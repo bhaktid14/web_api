@@ -243,6 +243,9 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\viewdemo.cshtml" />
     <Content Include="Views\emp2\Index.cshtml" />
+    <Content Include="Views\emp2\Create.cshtml" />
+    <Content Include="Views\emp2\Details.cshtml" />
+    <Content Include="Views\emp2\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
